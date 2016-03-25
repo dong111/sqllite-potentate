@@ -15,6 +15,9 @@
 		2B5193F71CA4E66200A2E8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5193F51CA4E66200A2E8A5 /* LaunchScreen.storyboard */; };
 		2B5194021CA4E66200A2E8A5 /* sqlite_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5194011CA4E66200A2E8A5 /* sqlite_____Tests.m */; };
 		2B51940D1CA4E66200A2E8A5 /* sqlite_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B51940C1CA4E66200A2E8A5 /* sqlite_____UITests.m */; };
+		2B51941E1CA4E6BE00A2E8A5 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B51941B1CA4E6BE00A2E8A5 /* Contact.m */; };
+		2B51941F1CA4E6BE00A2E8A5 /* ContactTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B51941D1CA4E6BE00A2E8A5 /* ContactTool.m */; };
+		2B5194211CA4E83400A2E8A5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5194201CA4E83400A2E8A5 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		2B5194081CA4E66200A2E8A5 /* sqlite-模糊查询UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sqlite-模糊查询UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B51940C1CA4E66200A2E8A5 /* sqlite_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "sqlite_____UITests.m"; sourceTree = "<group>"; };
 		2B51940E1CA4E66200A2E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B51941A1CA4E6BE00A2E8A5 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		2B51941B1CA4E6BE00A2E8A5 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		2B51941C1CA4E6BE00A2E8A5 /* ContactTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTool.h; sourceTree = "<group>"; };
+		2B51941D1CA4E6BE00A2E8A5 /* ContactTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTool.m; sourceTree = "<group>"; };
+		2B5194201CA4E83400A2E8A5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5194211CA4E83400A2E8A5 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 		2B5193DB1CA4E66200A2E8A5 = {
 			isa = PBXGroup;
 			children = (
+				2B5194201CA4E83400A2E8A5 /* libsqlite3.0.tbd */,
 				2B5193E61CA4E66200A2E8A5 /* sqlite-模糊查询 */,
 				2B5194001CA4E66200A2E8A5 /* sqlite-模糊查询Tests */,
 				2B51940B1CA4E66200A2E8A5 /* sqlite-模糊查询UITests */,
@@ -101,6 +111,10 @@
 		2B5193E61CA4E66200A2E8A5 /* sqlite-模糊查询 */ = {
 			isa = PBXGroup;
 			children = (
+				2B51941A1CA4E6BE00A2E8A5 /* Contact.h */,
+				2B51941B1CA4E6BE00A2E8A5 /* Contact.m */,
+				2B51941C1CA4E6BE00A2E8A5 /* ContactTool.h */,
+				2B51941D1CA4E6BE00A2E8A5 /* ContactTool.m */,
 				2B5193EA1CA4E66200A2E8A5 /* AppDelegate.h */,
 				2B5193EB1CA4E66200A2E8A5 /* AppDelegate.m */,
 				2B5193ED1CA4E66200A2E8A5 /* ViewController.h */,
@@ -270,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B51941E1CA4E6BE00A2E8A5 /* Contact.m in Sources */,
 				2B5193EF1CA4E66200A2E8A5 /* ViewController.m in Sources */,
+				2B51941F1CA4E6BE00A2E8A5 /* ContactTool.m in Sources */,
 				2B5193EC1CA4E66200A2E8A5 /* AppDelegate.m in Sources */,
 				2B5193E91CA4E66200A2E8A5 /* main.m in Sources */,
 			);
