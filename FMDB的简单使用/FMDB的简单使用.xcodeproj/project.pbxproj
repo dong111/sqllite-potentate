@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B5194301CA4FEAC00A2E8A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B51942F1CA4FEAC00A2E8A5 /* main.m */; };
+		2B5194331CA4FEAC00A2E8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5194321CA4FEAC00A2E8A5 /* AppDelegate.m */; };
+		2B5194361CA4FEAC00A2E8A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5194351CA4FEAC00A2E8A5 /* ViewController.m */; };
+		2B5194391CA4FEAC00A2E8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5194371CA4FEAC00A2E8A5 /* Main.storyboard */; };
+		2B51943B1CA4FEAC00A2E8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B51943A1CA4FEAC00A2E8A5 /* Assets.xcassets */; };
+		2B51943E1CA4FEAC00A2E8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B51943C1CA4FEAC00A2E8A5 /* LaunchScreen.storyboard */; };
+		2B5194491CA4FEAC00A2E8A5 /* FMDB_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5194481CA4FEAC00A2E8A5 /* FMDB_____Tests.m */; };
+		2B5194541CA4FEAC00A2E8A5 /* FMDB_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5194531CA4FEAC00A2E8A5 /* FMDB_____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B5194451CA4FEAC00A2E8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5194231CA4FEAC00A2E8A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B51942A1CA4FEAC00A2E8A5;
+			remoteInfo = "FMDB的简单使用";
+		};
+		2B5194501CA4FEAC00A2E8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5194231CA4FEAC00A2E8A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B51942A1CA4FEAC00A2E8A5;
+			remoteInfo = "FMDB的简单使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B51942B1CA4FEAC00A2E8A5 /* FMDB的简单使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FMDB的简单使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B51942F1CA4FEAC00A2E8A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B5194311CA4FEAC00A2E8A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B5194321CA4FEAC00A2E8A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B5194341CA4FEAC00A2E8A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B5194351CA4FEAC00A2E8A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B5194381CA4FEAC00A2E8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B51943A1CA4FEAC00A2E8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B51943D1CA4FEAC00A2E8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B51943F1CA4FEAC00A2E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5194441CA4FEAC00A2E8A5 /* FMDB的简单使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMDB的简单使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5194481CA4FEAC00A2E8A5 /* FMDB_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FMDB_____Tests.m"; sourceTree = "<group>"; };
+		2B51944A1CA4FEAC00A2E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B51944F1CA4FEAC00A2E8A5 /* FMDB的简单使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMDB的简单使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5194531CA4FEAC00A2E8A5 /* FMDB_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FMDB_____UITests.m"; sourceTree = "<group>"; };
+		2B5194551CA4FEAC00A2E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5194281CA4FEAC00A2E8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5194411CA4FEAC00A2E8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B51944C1CA4FEAC00A2E8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5194221CA4FEAC00A2E8A5 = {
+			isa = PBXGroup;
+			children = (
+				2B51942D1CA4FEAC00A2E8A5 /* FMDB的简单使用 */,
+				2B5194471CA4FEAC00A2E8A5 /* FMDB的简单使用Tests */,
+				2B5194521CA4FEAC00A2E8A5 /* FMDB的简单使用UITests */,
+				2B51942C1CA4FEAC00A2E8A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B51942C1CA4FEAC00A2E8A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B51942B1CA4FEAC00A2E8A5 /* FMDB的简单使用.app */,
+				2B5194441CA4FEAC00A2E8A5 /* FMDB的简单使用Tests.xctest */,
+				2B51944F1CA4FEAC00A2E8A5 /* FMDB的简单使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B51942D1CA4FEAC00A2E8A5 /* FMDB的简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				2B5194311CA4FEAC00A2E8A5 /* AppDelegate.h */,
+				2B5194321CA4FEAC00A2E8A5 /* AppDelegate.m */,
+				2B5194341CA4FEAC00A2E8A5 /* ViewController.h */,
+				2B5194351CA4FEAC00A2E8A5 /* ViewController.m */,
+				2B5194371CA4FEAC00A2E8A5 /* Main.storyboard */,
+				2B51943A1CA4FEAC00A2E8A5 /* Assets.xcassets */,
+				2B51943C1CA4FEAC00A2E8A5 /* LaunchScreen.storyboard */,
+				2B51943F1CA4FEAC00A2E8A5 /* Info.plist */,
+				2B51942E1CA4FEAC00A2E8A5 /* Supporting Files */,
+			);
+			path = "FMDB的简单使用";
+			sourceTree = "<group>";
+		};
+		2B51942E1CA4FEAC00A2E8A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B51942F1CA4FEAC00A2E8A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B5194471CA4FEAC00A2E8A5 /* FMDB的简单使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5194481CA4FEAC00A2E8A5 /* FMDB_____Tests.m */,
+				2B51944A1CA4FEAC00A2E8A5 /* Info.plist */,
+			);
+			path = "FMDB的简单使用Tests";
+			sourceTree = "<group>";
+		};
+		2B5194521CA4FEAC00A2E8A5 /* FMDB的简单使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5194531CA4FEAC00A2E8A5 /* FMDB_____UITests.m */,
+				2B5194551CA4FEAC00A2E8A5 /* Info.plist */,
+			);
+			path = "FMDB的简单使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B51942A1CA4FEAC00A2E8A5 /* FMDB的简单使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5194581CA4FEAC00A2E8A5 /* Build configuration list for PBXNativeTarget "FMDB的简单使用" */;
+			buildPhases = (
+				2B5194271CA4FEAC00A2E8A5 /* Sources */,
+				2B5194281CA4FEAC00A2E8A5 /* Frameworks */,
+				2B5194291CA4FEAC00A2E8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FMDB的简单使用";
+			productName = "FMDB的简单使用";
+			productReference = 2B51942B1CA4FEAC00A2E8A5 /* FMDB的简单使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B5194431CA4FEAC00A2E8A5 /* FMDB的简单使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B51945B1CA4FEAC00A2E8A5 /* Build configuration list for PBXNativeTarget "FMDB的简单使用Tests" */;
+			buildPhases = (
+				2B5194401CA4FEAC00A2E8A5 /* Sources */,
+				2B5194411CA4FEAC00A2E8A5 /* Frameworks */,
+				2B5194421CA4FEAC00A2E8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5194461CA4FEAC00A2E8A5 /* PBXTargetDependency */,
+			);
+			name = "FMDB的简单使用Tests";
+			productName = "FMDB的简单使用Tests";
+			productReference = 2B5194441CA4FEAC00A2E8A5 /* FMDB的简单使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B51944E1CA4FEAC00A2E8A5 /* FMDB的简单使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B51945E1CA4FEAC00A2E8A5 /* Build configuration list for PBXNativeTarget "FMDB的简单使用UITests" */;
+			buildPhases = (
+				2B51944B1CA4FEAC00A2E8A5 /* Sources */,
+				2B51944C1CA4FEAC00A2E8A5 /* Frameworks */,
+				2B51944D1CA4FEAC00A2E8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5194511CA4FEAC00A2E8A5 /* PBXTargetDependency */,
+			);
+			name = "FMDB的简单使用UITests";
+			productName = "FMDB的简单使用UITests";
+			productReference = 2B51944F1CA4FEAC00A2E8A5 /* FMDB的简单使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B5194231CA4FEAC00A2E8A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = man;
+				TargetAttributes = {
+					2B51942A1CA4FEAC00A2E8A5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2B5194431CA4FEAC00A2E8A5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2B51942A1CA4FEAC00A2E8A5;
+					};
+					2B51944E1CA4FEAC00A2E8A5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2B51942A1CA4FEAC00A2E8A5;
+					};
+				};
+			};
+			buildConfigurationList = 2B5194261CA4FEAC00A2E8A5 /* Build configuration list for PBXProject "FMDB的简单使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B5194221CA4FEAC00A2E8A5;
+			productRefGroup = 2B51942C1CA4FEAC00A2E8A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B51942A1CA4FEAC00A2E8A5 /* FMDB的简单使用 */,
+				2B5194431CA4FEAC00A2E8A5 /* FMDB的简单使用Tests */,
+				2B51944E1CA4FEAC00A2E8A5 /* FMDB的简单使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5194291CA4FEAC00A2E8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B51943E1CA4FEAC00A2E8A5 /* LaunchScreen.storyboard in Resources */,
+				2B51943B1CA4FEAC00A2E8A5 /* Assets.xcassets in Resources */,
+				2B5194391CA4FEAC00A2E8A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5194421CA4FEAC00A2E8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B51944D1CA4FEAC00A2E8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5194271CA4FEAC00A2E8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5194361CA4FEAC00A2E8A5 /* ViewController.m in Sources */,
+				2B5194331CA4FEAC00A2E8A5 /* AppDelegate.m in Sources */,
+				2B5194301CA4FEAC00A2E8A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5194401CA4FEAC00A2E8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5194491CA4FEAC00A2E8A5 /* FMDB_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B51944B1CA4FEAC00A2E8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5194541CA4FEAC00A2E8A5 /* FMDB_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B5194461CA4FEAC00A2E8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B51942A1CA4FEAC00A2E8A5 /* FMDB的简单使用 */;
+			targetProxy = 2B5194451CA4FEAC00A2E8A5 /* PBXContainerItemProxy */;
+		};
+		2B5194511CA4FEAC00A2E8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B51942A1CA4FEAC00A2E8A5 /* FMDB的简单使用 */;
+			targetProxy = 2B5194501CA4FEAC00A2E8A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B5194371CA4FEAC00A2E8A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5194381CA4FEAC00A2E8A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B51943C1CA4FEAC00A2E8A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B51943D1CA4FEAC00A2E8A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B5194561CA4FEAC00A2E8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B5194571CA4FEAC00A2E8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B5194591CA4FEAC00A2E8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMDB的简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.FMDB-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B51945A1CA4FEAC00A2E8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMDB的简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.FMDB-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B51945C1CA4FEAC00A2E8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FMDB的简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.FMDB-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB的简单使用.app/FMDB的简单使用";
+			};
+			name = Debug;
+		};
+		2B51945D1CA4FEAC00A2E8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FMDB的简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.FMDB-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB的简单使用.app/FMDB的简单使用";
+			};
+			name = Release;
+		};
+		2B51945F1CA4FEAC00A2E8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FMDB的简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.FMDB-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FMDB的简单使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2B5194601CA4FEAC00A2E8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FMDB的简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.FMDB-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FMDB的简单使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5194261CA4FEAC00A2E8A5 /* Build configuration list for PBXProject "FMDB的简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5194561CA4FEAC00A2E8A5 /* Debug */,
+				2B5194571CA4FEAC00A2E8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5194581CA4FEAC00A2E8A5 /* Build configuration list for PBXNativeTarget "FMDB的简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5194591CA4FEAC00A2E8A5 /* Debug */,
+				2B51945A1CA4FEAC00A2E8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B51945B1CA4FEAC00A2E8A5 /* Build configuration list for PBXNativeTarget "FMDB的简单使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B51945C1CA4FEAC00A2E8A5 /* Debug */,
+				2B51945D1CA4FEAC00A2E8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B51945E1CA4FEAC00A2E8A5 /* Build configuration list for PBXNativeTarget "FMDB的简单使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B51945F1CA4FEAC00A2E8A5 /* Debug */,
+				2B5194601CA4FEAC00A2E8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B5194231CA4FEAC00A2E8A5 /* Project object */;
+}
