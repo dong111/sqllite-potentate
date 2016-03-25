@@ -15,6 +15,7 @@
 		2B5193B61CA4C00400A2E8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5193B41CA4C00400A2E8A5 /* LaunchScreen.storyboard */; };
 		2B5193C11CA4C00400A2E8A5 /* sqllite_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5193C01CA4C00400A2E8A5 /* sqllite_____Tests.m */; };
 		2B5193CC1CA4C00400A2E8A5 /* sqllite_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5193CB1CA4C00400A2E8A5 /* sqllite_____UITests.m */; };
+		2B5193DA1CA4DA4900A2E8A5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5193D91CA4DA4900A2E8A5 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2B5193C71CA4C00400A2E8A5 /* sqllite-简单实用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sqllite-简单实用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5193CB1CA4C00400A2E8A5 /* sqllite_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "sqllite_____UITests.m"; sourceTree = "<group>"; };
 		2B5193CD1CA4C00400A2E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5193D91CA4DA4900A2E8A5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5193DA1CA4DA4900A2E8A5 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		2B51939A1CA4C00400A2E8A5 = {
 			isa = PBXGroup;
 			children = (
+				2B5193D91CA4DA4900A2E8A5 /* libsqlite3.0.tbd */,
 				2B5193A51CA4C00400A2E8A5 /* sqllite-简单实用 */,
 				2B5193BF1CA4C00400A2E8A5 /* sqllite-简单实用Tests */,
 				2B5193CA1CA4C00400A2E8A5 /* sqllite-简单实用UITests */,
